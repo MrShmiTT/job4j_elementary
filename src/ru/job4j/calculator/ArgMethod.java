@@ -12,5 +12,6 @@ public class ArgMethod {
         ArgMethod.hello(hi, name);
         ArgMethod.hello(hi, name);
         ArgMethod.hello(hi, name);
+
     }
 }
