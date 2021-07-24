@@ -1,9 +1,15 @@
 package ru.job4j.calculator;
 
 public class ArgMethod {
+<<<<<<< HEAD
     public static void hello (String hi, String name) {
         System.out.println(hi + name);
     }
+=======
+        public static void hello (String hi, String name) {
+            System.out.println(hi + name);
+        }
+>>>>>>> origin/master
 
     public static void main(String[] args) {
         String hi = "Hello, ";
