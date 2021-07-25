@@ -11,7 +11,7 @@ public class Tour {
     }
 
     public static void main(String[] args) {
-        Tour.offer(true);
+        Tour.offer(true); // можно сократить до offer(true), т.к. всего один класс
         Tour.offer(false);
     }
 }
