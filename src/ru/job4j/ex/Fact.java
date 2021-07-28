@@ -1,29 +1,29 @@
 package ru.job4j.ex;
 
 public class Fact {
-    public static int calc(int n) {
+    public static void main(String[] args) {
+        new Fact().calc(-1);
+    }
+
+    public int calc(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("N could not be less then 0");
+            throw new IllegalArgumentException("n could not be less than 0");
         }
         int rsl = 1;
-        for (int index = 1; index <= n; index++) {
+        for (int index = 2; index <= n; index++) {
             rsl *= index;
         }
         return rsl;
     }
 }
 
+
 //package ru.job4j.ex;
 //
 //public class Fact {
-//    public static void main(String[] args) {
-//        new Fact().calc(-1);
-//
-//    }
-//
-//    public int calc(int n) {
+//    public static int calc(int n) {
 //        if (n < 0) {
-//            throw new IllegalArgumentException("n should be > 0");
+//            throw new IllegalArgumentException("N could not be less then 0");
 //        }
 //        int rsl = 1;
 //        for (int index = 1; index <= n; index++) {
