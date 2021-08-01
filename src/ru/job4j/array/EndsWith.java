@@ -5,7 +5,8 @@ public class EndsWith {
         boolean result = true;
         for (int i = 0; i < post.length; i++) {
             if (post[post.length - i - 1] != word[word.length - i - 1]) {
-                return false;
+                result = false;
+                break;
             }
         }
         return result;
