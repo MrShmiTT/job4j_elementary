@@ -23,20 +23,7 @@ public class MatrixCheckTest {
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
         };
-        int row = 1;
-        boolean result = MatrixCheck.monoHorizontal(input, row);
-        Assert.assertTrue(result);
-    }
-
-    @Test
-    public void whenHasMonoHorizontal2() {
-        char[][] input = {
-                {' ', ' ', ' '},
-                {' ', ' ', ' ', ' '},
-                {' ', ' ', ' ', ' '},
-                {'X', 'X', 'X', ' '},
-        };
-        int row = 1;
+        int row = 0;
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertTrue(result);
     }
