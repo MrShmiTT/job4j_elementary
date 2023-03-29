@@ -14,8 +14,8 @@ public class CrossArray {
     }
 
     public static void main(String[] args) {
-        int left[] = {1, 3};
-        int right[] = {2, 1};
+        int[] left = {1, 3};
+        int[] right = {2, 1};
         printCrossEl(left, right);
     }
 }
