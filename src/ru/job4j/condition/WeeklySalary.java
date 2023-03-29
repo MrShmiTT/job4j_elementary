@@ -24,24 +24,25 @@ public class WeeklySalary {
     }
 }
 
-// 2 вариант
-//        int sum = 0;
-//        for (int i = 0; i < hours.length; i++) {
-//            int workHours = hours[i];
-//            if ((i % 5 == 0 || i % 6 == 0) && workHours != 0 && i != 0) {
-//                if (workHours <= 8) {
-//                    sum += 20 * workHours;
-//                } else {
-//                    sum += 8 * 20 + (workHours - 8) * 30;
-//                }
-//            } else if (workHours != 0) {
-//                if (workHours <= 8) {
-//                    sum += 10 * workHours;
-//                } else {
-//                    sum += 8 * 10 + (workHours - 8) * 15;
-//                }
-//            }
-//        }
-//        return sum;
-//    }
-//}
+/*
+ 2 вариант
+        int sum = 0;
+        for (int i = 0; i < hours.length; i++) {
+            int workHours = hours[i];
+            if ((i % 5 == 0 || i % 6 == 0) && workHours != 0 && i != 0) {
+                if (workHours <= 8) {
+                    sum += 20 * workHours;
+                } else {
+                    sum += 8 * 20 + (workHours - 8) * 30;
+                }
+            } else if (workHours != 0) {
+                if (workHours <= 8) {
+                    sum += 10 * workHours;
+                } else {
+                    sum += 8 * 10 + (workHours - 8) * 15;
+                }
+            }
+        }
+        return sum;
+    }
+}*/

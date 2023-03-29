@@ -18,25 +18,25 @@ public class Abbreviation {
     }
 }
 
-// 2й вариант
-//public class Abbreviation {
-//    public static String collect(String s) {
-//        String[] arrs = s.split(" ");
-//        StringBuilder sb = new StringBuilder();
-//        for (int i = 0; i < arrs.length; i++) {
-//            sb.append(arrs[i].charAt(0));
-//        }
-//        return sb.toString();
-//    }
-//}
+/* 2й вариант
+public class Abbreviation {
+    public static String collect(String s) {
+        String[] arrs = s.split(" ");
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < arrs.length; i++) {
+            sb.append(arrs[i].charAt(0));
+        }
+        return sb.toString();
+    }
+}*/
 
-// 3й вариант
-//public class Abbreviation {
-//    public static String collect(String s) {
-//        StringBuilder sb = new StringBuilder();
-//        for (String word : s.split (" ")) {
-//            sb.append(word.substring(0, 1));
-//        }
-//        return sb.toString();
-//    }
-//}
+/* 3й вариант
+public class Abbreviation {
+    public static String collect(String s) {
+        StringBuilder sb = new StringBuilder();
+        for (String word : s.split (" ")) {
+            sb.append(word.substring(0, 1));
+        }
+        return sb.toString();
+    }
+}*/
